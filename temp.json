@@ -1,0 +1,12 @@
+[
+    {
+        "path": "/output/m3u/",
+        "method": "GET",
+        "auth": true
+    },
+    {
+        "path": "/proxy/",
+        "method": "PUT",
+        "auth": true
+    }
+]

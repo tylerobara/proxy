@@ -39,8 +39,7 @@ def requires_auth(f):
         return f(*args, **kwargs)
     return decorated
 
-
-@app.route('/<path>')
+@app.route('/<path:path>')
 @requires_auth
 def protected_route(path):
     """
